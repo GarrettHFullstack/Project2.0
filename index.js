@@ -1,5 +1,4 @@
 console.log("cheese")
-
 let total = 0;
 let PurchasePoints = 0;
 let EventEqual = 0;
@@ -8,8 +7,8 @@ let pause = false;
 let items = {
     Name : ["Milk","Milk Hustler","Milk Enhancer","Auto Milker","Milk Trailor","Milk Man","Milk Men","Milky Way"],
     Increment : [1,5,10,50,100,200,500,1000],
-    Cost : [10,15,30,100,200,400,1000,2000],
-    Unlock : [0,10,25,90,175,350,900,1900]
+    Cost : [10,50,100,500,1000,2000,5000,10000],
+    Unlock : [0,50,1000,5000,10000,20000,50000,100000]
 }   
     let AutoPointsKey = document.getElementsByClassName("BuyPoints")[0];
     let PurchasePointsKey = document.getElementsByClassName("BuyPoints")[1];
