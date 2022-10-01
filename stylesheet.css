@@ -1,0 +1,78 @@
+body{
+    margin:0px;
+    height: 100vh;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.mast{
+    border-radius: 10px;
+    height: 95%;
+    width: 45%;
+    background-color:white;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.title{
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px white solid;
+}
+.content{
+    height: auto;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+.content2{
+    height: auto;
+    width: auto;
+    color: Black;
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+}
+button{
+    height: auto;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.BuyPoints{
+    font-weight: bold;
+    font-size:30px;
+}
